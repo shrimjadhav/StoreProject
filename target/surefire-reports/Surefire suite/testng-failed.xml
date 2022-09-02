@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.tests.HomeTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="register"/>
+          <include name="setupExtentEnv"/>
+          <include name="verifyTitle"/>
+          <include name="propertySetup"/>
+          <include name="cleanup"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.tests.HomeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,13 @@
+2022-08-30 11:24:07,635 INFO [main] BaseTest:92 -extent report set
+2022-08-30 11:25:21,829 INFO [main] BaseTest:92 -extent report set
+2022-08-30 11:27:03,938 INFO [main] BaseTest:92 -extent report set
+2022-08-30 11:29:25,338 INFO [main] BaseTest:92 -extent report set
+2022-08-30 11:30:28,353 INFO [main] BaseTest:92 -extent report set
+2022-08-30 11:30:56,963 INFO [main] BaseTest:92 -extent report set
+2022-08-30 11:31:45,407 INFO [main] BaseTest:92 -extent report set
+2022-08-30 11:32:40,513 INFO [main] BaseTest:92 -extent report set
+2022-08-30 11:38:23,661 INFO [main] BaseTest:92 -extent report set
+2022-08-30 12:47:44,303 INFO [main] BaseTest:95 -extent report set
+2022-08-30 12:47:51,737 INFO [main] BaseTest:30 -HomePage browser opened
+2022-08-30 12:47:56,925 INFO [main] BaseTest:43 -user logged in
+2022-08-30 12:47:58,248 INFO [main] BaseTest:78 -Browser closed successfully

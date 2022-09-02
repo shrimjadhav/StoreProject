@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-30T11:30:52 IST" name="Default suite" finished-at="2022-08-30T11:31:08 IST" duration-ms="15928">
+    <groups>
+    </groups>
+    <test started-at="2022-08-30T11:30:52 IST" name="Default test" finished-at="2022-08-30T11:31:08 IST" duration-ms="15928">
+      <class name="com.tests.MyAccountTest">
+        <test-method is-config="true" signature="propertySetup()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:30:52 IST" name="propertySetup" finished-at="2022-08-30T11:30:52 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertySetup -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:30:52 IST" name="initDriver" finished-at="2022-08-30T11:30:56 IST" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="setupExtentEnv()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:30:56 IST" name="setupExtentEnv" finished-at="2022-08-30T11:30:56 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentEnv -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:30:56 IST" name="openBrowser" finished-at="2022-08-30T11:31:06 IST" duration-ms="9355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="register(java.lang.reflect.Method)[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:06 IST" name="register" finished-at="2022-08-30T11:31:06 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.MyAccountTest.loginToMyAccount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="loginToMyAccount()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:06 IST" name="loginToMyAccount" finished-at="2022-08-30T11:31:07 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:07 IST" name="tearDown" finished-at="2022-08-30T11:31:07 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToMyAccount status=SUCCESS method=MyAccountTest.loginToMyAccount()[pri:0, instance:com.tests.MyAccountTest@1da2cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:07 IST" name="verifyPageTitle" finished-at="2022-08-30T11:31:07 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="register(java.lang.reflect.Method)[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:07 IST" name="register" finished-at="2022-08-30T11:31:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.MyAccountTest.verifyPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:07 IST" name="tearDown" finished-at="2022-08-30T11:31:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=MyAccountTest.verifyPageTitle()[pri:0, instance:com.tests.MyAccountTest@1da2cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:07 IST" name="close" finished-at="2022-08-30T11:31:08 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:08 IST" name="cleanup" finished-at="2022-08-30T11:31:08 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.MyAccountTest@1da2cb77]" started-at="2022-08-30T11:31:08 IST" name="tearDown" finished-at="2022-08-30T11:31:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.MyAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
